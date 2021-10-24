@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>survey form</title>
+    <style>
+        *{
+            margin: 20px;
+        }
+        body{
+            background-image: url(food.jpg);
+        }
+        form{
+            text-align: left;
+            background-color: goldenrod;
+            width: 400px;
+            height:auto;
+            box-shadow: 5 10 90px black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div text align=center>
+
+        <form >
+            <h2 text align=center><i>Feedback Form</i></h2>
+            <label for="selector">Name of Food You Ate</label>
+            <select id="selector">
+                <option>Butter Chicken</option>
+                <option>Chicken Biryani</option>
+                <option>Mutton Biryani</option>
+                <option>Veg Biryani</option>
+            </select>  <br>
+            <label for="selector">Is Food Tasty?</label>
+            <select id="selector">
+                <option>Yes</option>
+                <option>No</option>
+            </select>
+            <br>
+            <label for="selector">Submit Ratings</label>
+            <select id="selector">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select><br> 
+            <label> Mobile Number</label>
+            <input type="text"><br>
+            <label>Email</label>
+            <input type="email" required pattern=".+@gmail.com"><br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
